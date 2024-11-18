@@ -1,4 +1,4 @@
-import express, {Express, Request, Response} from 'express';
+import express, { Express } from 'express';
 import binanceRouter from './routes/binance';
 import config from './config';
 import { checkCache } from './cache';

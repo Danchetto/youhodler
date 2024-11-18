@@ -1,6 +1,6 @@
 import axios from 'axios';
 import addComission from '../utils/comission';
-import config from "../config";
+import config from '../config';
 
 export const fetchBitcoinData = async () => {
   const apiUrl = config.BINANCE_API_URL;
